@@ -34,6 +34,7 @@ Microsoft.Maui.Controls.TapGestureRecognizer.Tapped -> System.EventHandler<Micro
 Microsoft.Maui.Controls.TappedEventArgs.Buttons.get -> Microsoft.Maui.Controls.ButtonsMask
 Microsoft.Maui.Controls.ToolTipProperties
 Microsoft.Maui.Controls.ToolTipProperties.ToolTipProperties() -> void
+Microsoft.Maui.Controls.VisualElement.IsPointerOver -> bool
 Microsoft.Maui.Controls.Window.Height.get -> double
 Microsoft.Maui.Controls.Window.Height.set -> void
 Microsoft.Maui.Controls.Window.MaximumHeight.get -> double
@@ -59,7 +60,6 @@ override Microsoft.Maui.Controls.Platform.Compatibility.ShellFlyoutTemplatedCont
 override Microsoft.Maui.Controls.Platform.ControlsAccessibilityDelegate.OnInitializeAccessibilityNodeInfo(Android.Views.View! host, AndroidX.Core.View.Accessibility.AccessibilityNodeInfoCompat! info) -> void
 override Microsoft.Maui.Controls.TemplatedView.ArrangeOverride(Microsoft.Maui.Graphics.Rect bounds) -> Microsoft.Maui.Graphics.Size
 override Microsoft.Maui.Controls.TemplatedView.MeasureOverride(double widthConstraint, double heightConstraint) -> Microsoft.Maui.Graphics.Size
-override Microsoft.Maui.Controls.View.ChangeVisualState() -> void
 static Microsoft.Maui.Controls.ToolTipProperties.GetText(Microsoft.Maui.Controls.BindableObject! bindable) -> object!
 static Microsoft.Maui.Controls.ToolTipProperties.SetText(Microsoft.Maui.Controls.BindableObject! bindable, object! value) -> void
 static readonly Microsoft.Maui.Controls.PointerGestureRecognizer.PointerEnteredCommandParameterProperty -> Microsoft.Maui.Controls.BindableProperty!
